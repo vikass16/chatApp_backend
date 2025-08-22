@@ -1,3 +1,4 @@
+
 package com.substring.chatApp.entities;
 
 import lombok.*;

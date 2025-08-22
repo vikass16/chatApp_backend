@@ -14,7 +14,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/v1/rooms")
 @CrossOrigin(AppConstants.FRONT_END_USERBASE_URL)
-public class RoomController {
+public class   RoomController {
 
     private RoomRepository roomRepository;
 
@@ -40,7 +40,7 @@ public class RoomController {
         return ResponseEntity.status(HttpStatus.CREATED).body(room);
     }
 
-     // Get rooms : join
+    // Get rooms : join
 
     @GetMapping("/{roomId}")
     public ResponseEntity<?> joinRoom(@PathVariable String roomId){
